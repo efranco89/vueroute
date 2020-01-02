@@ -1,12 +1,30 @@
 <template>
   <div id="app">
     <div class="container">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/contact">Contact</router-link> |
-      <router-link to="/users">User</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/login">Login</router-link> |
-      <router-link to="/singup">Singup</router-link>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <router-link to="/" class="nav-link active" >Home</router-link> 
+        </li>
+        <li class="nav-item">
+          <router-link to="/contact" class="nav-link">Contact</router-link> 
+        </li>
+        <li class="nav-item">
+          <router-link to="/users" class="nav-link">User</router-link> 
+        </li>
+        <li class="nav-item">
+          <router-link to="/about" class="nav-link">About</router-link> 
+        </li>
+        <li class="nav-item">
+          <router-link to="/login" class="nav-link">Login</router-link> 
+        </li>
+        <li class="nav-item">
+          <router-link to="/singup" class="nav-link">Singup</router-link>
+        </li>
+      </ul>
+      <nav class="nav">
+
+
+      </nav>
     </div>
     <router-view/>
   </div>
