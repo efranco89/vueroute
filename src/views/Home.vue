@@ -1,7 +1,6 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Bienvenido a tu app VueJS"/>
+  <div class="home container">
+    <HelloWorld msg="Bienvenido a tu app VueJS con rutas"/>
   </div>
 </template>
 

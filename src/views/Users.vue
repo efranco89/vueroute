@@ -1,5 +1,5 @@
 <template>
-  <div class="users">
+  <div class="users container">
     <h1>Informacion del Usuario</h1>
     <router-link :to="{ name:'users', params: {id: user } }"
       v-for="(user, index) in usersArray" :key="index">
