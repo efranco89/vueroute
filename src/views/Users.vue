@@ -1,7 +1,11 @@
 <template>
   <div class="users">
     <h1>Informacion del Usuario</h1>
-    <user/>
+    <router-link :to="{ name:'users', params: {id: user } }"
+      v-for="(user) in usersArray" :key="user">
+      <button type="button" name="button">{{ user }}</button>
+    </router-link>
+    <User/>
   </div>
 </template>
 <script>
@@ -9,6 +13,13 @@
   export default{
     components: {
       User
+    },
+    data(){
+      return{
+        usersArray: [
+          'efranco', 'carlos', 'luisa', 'camila'
+        ]
+      }
     }
   }
 </script>
