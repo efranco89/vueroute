@@ -12,7 +12,7 @@
           <div class="col-md-12">
             <h4>Product Title 1</h4>
             <p>Product Description</p>
-            <a href="#" class="btn btn-success btn-sm">Agregar</a>
+            <router-link :to="{ name: 'product-detail', params: { id: 1 } }" class="btn btn-success btn-sm"> Ver detalle </router-link>
           </div>
         </div>
 
@@ -23,7 +23,7 @@
           <div class="col-md-12">
             <h4>Product Title 2</h4>
             <p>Product Description</p>
-            <a href="#" class="btn btn-success btn-sm">Agregar</a>
+            <router-link :to="{ name: 'product-detail', params: { id: 2 } }" class="btn btn-success btn-sm"> Ver detalle </router-link>
           </div>
         </div>
 
@@ -34,7 +34,7 @@
           <div class="col-md-12">
             <h4>Product Title 3</h4>
             <p>Product Description</p>
-            <a href="#" class="btn btn-success btn-sm">Agregar</a>
+            <router-link :to="{ name: 'product-detail', params: { id: 3 } }" class="btn btn-success btn-sm"> Ver detalle </router-link>
           </div>
         </div>
 
@@ -45,7 +45,7 @@
           <div class="col-md-12">
             <h4>Product Title 4</h4>
             <p>Product Description</p>
-            <a href="#" class="btn btn-success btn-sm">Agregar</a>
+            <router-link :to="{ name: 'product-detail', params: { id: 4 } }" class="btn btn-success btn-sm"> Ver detalle </router-link>
           </div>
         </div>
 
