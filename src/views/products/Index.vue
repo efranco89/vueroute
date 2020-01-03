@@ -5,7 +5,16 @@
         <h3>Products</h3>
       </div>
       <div class="row">
-
+        <div class="col-md-3">
+          <div class="col-md-12">
+            <img src="https://placehold.it/200x100/000" alt="">
+          </div>
+          <div class="col-md-12">
+            <h4>Product Title</h4>
+            <p>Product Description</p>
+            <a href="#" class="btn btn-success btn-sm">Agregar</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
