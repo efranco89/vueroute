@@ -12,7 +12,7 @@
             <img src="https://placehold.it/800x600/000" alt="">
           </div>
           <div class="col-md-12">
-            <h4>Product Title 1</h4>
+            <h4>Product Title {{ id }} </h4>
             <p>Product Description</p>
             <a href="#" class="btn btn-success btn-sm">Agregar</a>
           </div>
@@ -21,6 +21,16 @@
     </div>
   </div>
 </template>
+
+<script>
+  export default {
+    data(){
+      return {
+        id: this.$route.params.id 
+      }
+    }
+  }
+</script>
 
 <style>
 
